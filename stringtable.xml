@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ATM Airdrop">
+	<Package name="ATMDrop">
+		<Key ID="STR_ATM_Alt">
+			<Original>Altitude:</Original>
+			<French>Altitude:</French>
+		</Key>
+		<Key ID="STR_ATM_Keys">
+			<Original>Select Key:</Original>
+			<French>Choisir Une touche:</French>
+		</Key>
+		<Key ID="STR_ATM_Main">
+			<Original>Choose your Altitude and Cut Key</Original>
+			<French>Choisir votre altitude et une touche</French>
+		<Key>
+		<Key ID="STR_ATM_hover">
+			<Original>Your select Altitude</Original>
+			<French>Votre Altitude choisi</French>
+		</Key>
+		<Key ID="STR_ATM_hinton">
+			<Original>Select Altitude and Designate LZ for HALO Jump on the map</Original>
+			<French>S�lectionner votre Altitude et d�signer une LZ sur la carte</French>
+		</Key>
+		<Key ID="STR_ATM_hintjump">
+			<Original>PRESS KEY TO CUT-AWAY ROPES</Original>
+			<French>Appuyer sur votre touche pour couper les suspentes</French>
+		</Key>
+		<Key ID="STR_ATM_hintload">
+			<Original>loading loadout ...</Original>
+			<French>Chargement de votre �quipement ...</French>
+		</Key>
+		<Key ID="STR_ATM_Close">
+			<Original>Close</Original>
+			<French>Fermer</French>
+		</Key>
+	</Package>
+<Project name="KPDS">
+    <!-- English and German localization by Dubjunk: https://github.com/Dubjunk -->
+    <!-- Polish localization by veteran29: https://github.com/veteran29 -->
+    <Package name="KPCF">
+        <Container name="Titles">
+            <Key ID="STR_KPCF_ACTIONOPEN">
+                <English>-- KP Cratefiller --</English>
+                <German>-- KP Kistenfüller --</German>
+                <Polish>-- KP Cratefiller --</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TITLE">
+                <English>KP Cratefiller</English>
+                <German>KP Kistenfüller</German>
+                <Polish>KP Cratefiller</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TITLETRANSPORT">
+                <English>Transport medium</English>
+                <German>Transportmedium</German>
+                <Polish>Środek transportu</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TITLEEQUIPMENT">
+                <English>Equipment</English>
+                <German>Ausrüstung</German>
+                <Polish>Ekwipunek</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TITLEINVENTORY">
+                <English>Inventory</English>
+                <German>Inventar</German>
+                <Polish>Ekwipunek</Polish>
+            </Key>
+        </Container>
+
+        <Container name="Dialog controls">
+            <Key ID="STR_KPCF_SPAWNCRATE">
+                <English>Request crate</English>
+                <German>Kiste anfordern</German>
+                <Polish>Utwórz skrzynię</Polish>
+            </Key>
+            <Key ID="STR_KPCF_DELETECRATE">
+                <English>Store crate</English>
+                <German>Kiste einlagern</German>
+                <Polish>Zeskładuj skrzynię</Polish>
+            </Key>
+            <Key ID="STR_KPCF_EXPORT">
+                <English>Export</English>
+                <German>Exportieren</German>
+                <Polish>Eksportuj</Polish>
+            </Key>
+            <Key ID="STR_KPCF_IMPORT">
+                <English>Import</English>
+                <German>Importieren</German>
+                <Polish>Importuj</Polish>
+            </Key>
+            <Key ID="STR_KPCF_LISTWEAPONS">
+                <English>Weapons</English>
+                <German>Waffen</German>
+                <Polish>Bronie</Polish>
+            </Key>
+            <Key ID="STR_KPCF_LISTMAGAZINES">
+                <English>Magazines</English>
+                <German>Magazine</German>
+                <Polish>Magazynki</Polish>
+            </Key>
+            <Key ID="STR_KPCF_LISTATTACHMENTS">
+                <English>Weapon attachments</English>
+                <German>Waffenzubehör</German>
+                <Polish>Akcesoria do broni</Polish>
+            </Key>
+            <Key ID="STR_KPCF_LISTGRENADES">
+                <English>Grenades</English>
+                <German>Granaten</German>
+                <Polish>Granaty</Polish>
+            </Key>
+            <Key ID="STR_KPCF_LISTEXPLOSIVES">
+                <English>Explosives</English>
+                <German>Sprengstoffe</German>
+                <Polish>Ładunki wybuchowe</Polish>
+            </Key>
+            <Key ID="STR_KPCF_LISTVARIOUS">
+                <English>Others</English>
+                <German>Sonstiges</German>
+                <Polish>Inne</Polish>
+            </Key>
+            <Key ID="STR_KPCF_LISTBACKPACKS">
+                <English>Backpacks</English>
+                <German>Rucksäcke</German>
+                <Polish>Plecaki</Polish>
+            </Key>
+        </Container>
+
+        <Container name="Tooltips">
+            <Key ID="STR_KPCF_TOOLTIPCRATE">
+                <English>Select a crate that you want to spawn.</English>
+                <German>Wähle eine Kiste aus, die gespawnt werden soll.</German>
+                <Polish>Wybierz skrzynię którą chcesz utworzyć.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPINVENTORY">
+                <English>Select an inventory that you want to edit.</English>
+                <German>Wähle einen Laderaum aus, den du bearbeiten möchtest.</German>
+                <Polish>Wybierz ekwipunek który chcesz edytować.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPREFRESH">
+                <English>Search for new inventories.</English>
+                <German>Nach neuem Laderaum suchen.</German>
+                <Polish>Szukaj nowych ekwipunków.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPCATEGORY">
+                <English>Choose a category from which you want to stow items.</English>
+                <German>Wähle eine Kategorie aus, von der du Gegenstände verladen willst.</German>
+                <Polish>Wybierz kategorie z której chcesz pobrać przedmioty.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPWEAPONSELECTION">
+                <English>Choose a weapon to find the right magazines or attachments.</English>
+                <German>Wähle eine Waffe um die passenden Magazine oder Zubehör zu finden.</German>
+                <Polish>Wybierz broń do której mają być wyszukane magazynki oraz dodatki.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPFILLLEVEL">
+                <English>Shows the current cargo space.</English>
+                <German>Zeigt den aktuellen Laderaumstand.</German>
+                <Polish>Pokazuje aktualny stan załadunku.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPDELETE">
+                <English>Deletes the selected preset.</English>
+                <German>Löscht das ausgewählte Ausrüstungsset.</German>
+                <Polish>Usuwa wybrany szablon.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPHELP">
+                <English>KP-Cratefiller v1.1.0\nBy Dubjunk</English>
+                <German>KP-Kistenfüller v1.1.0\nBy Dubjunk</German>
+                <Polish>KP-Cratefiller v1.1.0\nBy Dubjunk</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPEXPORT">
+                <English>Enter the name of the preset to be exported.</English>
+                <German>Trage den Namen für das zu exportierende Ausrüstungsset ein.</German>
+                <Polish>Wpisz nazwę szablonu do wyeksportowania.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_TOOLTIPIMPORT">
+                <English>Select the preset to be imported.</English>
+                <German>Wähle das zu importierende Ausrüstungsset.</German>
+                <Polish>Wybierz szablon do zaimportowania.</Polish>
+            </Key>
+        </Container>
+
+        <Container name="Hints">
+            <Key ID="STR_KPCF_HINTSELECTION">
+                <English>Incomplete selection.</English>
+                <German>Unvollständige Auswahl.</German>
+                <Polish>Niepełny wybór.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTADDED">
+                <English>%1 was loaded %2 times.</English>
+                <German>%1 wurde %2 mal geladen.</German>
+                <Polish>%1 zostało załadowane %2 razy.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTNONDELETEABLE">
+                <English>Selected transport medium can't be stored.</English>
+                <German>Ausgewähltes Transportmedium kann nicht eingelagert werden.</German>
+                <Polish>Wybrany środek transportu nie może być zeskładowany.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTDELETE">
+                <English>%1 was stored.</English>
+                <German>%1 wurde eingelagert.</German>
+                <Polish>%1 został zeskładowany.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTCLEARFULL">
+                <English>Selected storage is emptied.</English>
+                <German>Ausgewählter Laderaum wurde geleert.</German>
+                <Polish>Wybrana skrzynia została opróżniona.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTCLEAR">
+                <English>%1 was unloaded %2 times.</English>
+                <German>%1 wurde %2 mal entladen.</German>
+                <Polish>%1 zostało wyładowane %2 razy.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTZONE">
+                <English>The loading zone is busy.</English>
+                <German>Die Ladezone ist besetzt.</German>
+                <Polish>Strefa załadunku jest okupowana.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTSPAWN">
+                <English>%1 was provided.</English>
+                <German>%1 wurde bereitgestellt.</German>
+                <Polish>%1 został dostarczony.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTFULL">
+                <English>The selected storage doesn't have sufficient space.</English>
+                <German>Der ausgewählte Laderaum hat keinen ausreichenden Platz.</German>
+                <Polish>Wybrany kontener nie ma dość wolnego miejsca.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTNOSPAWN">
+                <English>No loading zone available, base object is used instead.</English>
+                <German>Keine Ladezone vorhanden, das Basis Objekt wird stattdessen benutzt.</German>
+                <Polish>Strefa załadunku nie jest dostępna, obiekt bazy zostanie wykorzystany w zastępstwie.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTNOSTORAGE">
+                <English>No storage selected.</English>
+                <German>Kein Laderaum ausgewählt.</German>
+                <Polish>Nie wybrano skrzyni.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTNAME">
+                <English>Invalid name.</English>
+                <German>Ungültiger Name.</German>
+                <Polish>Nieprawidłowa nazwa.</Polish>
+            </Key>
+            <Key ID="STR_KPCF_HINTRANGE">
+                <English>Selected transport medium is out of range.</English>
+                <German>Ausgewähltes Transportmedium ist außer Reichweite.</German>
+                <Polish>Wybrany środek transportu jest poza zasięgiem.</Polish>
+            </Key>
+        </Container>
+    </Package>
+</Project>
