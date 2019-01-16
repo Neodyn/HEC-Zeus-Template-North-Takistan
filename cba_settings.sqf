@@ -37,27 +37,6 @@ force tfar_radioCodesDisabled = false;
 force TFAR_Teamspeak_Channel_Name = "Einsatz";
 force TFAR_Teamspeak_Channel_Password = "123";
 
-//settings for ASR AI:
-asr_ai3_main_setskills = true;
-asr_ai3_main_seekcover = true;
-asr_ai3_main_usebuildings = 0.8;
-asr_ai3_main_getinweapons = 0.5;
-asr_ai3_main_rearm = 0;
-asr_ai3_main_rearm_mags = 0;
-asr_ai3_main_rearm_fak = 0;
-asr_ai3_main_radiorange = 0;
-asr_ai3_main_rrdelaymin = 5;
-asr_ai3_main_rrdelayplus = 10;
-asr_ai3_main_packNVG = true;
-asr_ai3_main_fallDown = true;
-asr_ai3_main_pgaistamina = false;
-asr_ai3_main_onteamswitchleader = true;
-asr_ai3_main_debug_setskill = false;
-asr_ai3_main_debug_setcamo = false;
-asr_ai3_main_debug_findcover = false;
-asr_ai3_main_debug_rearm = false;
-asr_ai3_main_debug_reveal = false;
-
 // ADV - ACE CPR
 force adv_aceCPR_addTime = 25;
 force adv_aceCPR_chance_0 = 10;
@@ -463,4 +442,39 @@ acex_volume_reduction = 5;
 acex_volume_remindIfLowered = false;
 acex_volume_showNotification = true;
 
+// Fire For Effect
+force RydFFE_2PhWithoutFO = false;
+force RydFFE_Acc = 2;
+force RydFFE_Active = true;
+force RydFFE_Amount = 6;
+force RydFFE_Debug = false;
+force RydFFE_FO_string = "";
+force RydFFE_FoAccGain = 1;
+force RydFFE_FOClass_string = "i_spotter_f, o_spotter_f, b_spotter_f, o_recon_jtac_f, b_recon_jtac_f, i_sniper_f, o_sniper_f, b_sniper_f, i_soldier_m_f, o_soldier_m_f, b_g_soldier_m_f, b_soldier_m_f, o_recon_m_f, b_recon_m_f, o_soldieru_m_f, i_uav_01_f, i_uav_02_cas_f, i_uav_02_f, o_uav_01_f, o_uav_02_cas_f, o_uav_02_f, b_uav_01_f, b_uav_02_cas_f, b_uav_02_f";
+force RydFFE_Monogamy = true;
+force RydFFE_OnePhase = false;
+force RydFFE_Safe = 100;
+force RydFFE_ShellView = false;
 
+// VCOM SETTINGS
+
+force Vcm_ActivateAI = true;
+force VCM_ADVANCEDMOVEMENT = true;
+force VCM_AIDISTANCEVEHPATH = 100;
+force VCM_AIMagLimit = 5;
+force VCM_ARTYDELAY = 300;
+force VCM_ARTYENABLE = false;
+force VCM_ARTYSPREAD = 400;
+force VCM_Debug = false;
+force VCM_ForceSpeed = false;
+force VCM_FRMCHANGE = true;
+force VCM_HEARINGDISTANCE = 200;
+force VCM_MINECHANCE = 25;
+force VCM_RAGDOLL = false;
+force VCM_RAGDOLLCHC = 0;
+force VCM_SIDEENABLED = [GUER,EAST];
+force VCM_SKILLCHANGE = true;
+force VCM_STATICARMT = 300;
+force VCM_StealVeh = true;
+force VCM_WARNDELAY = 30;
+force VCM_WARNDIST = 150;
