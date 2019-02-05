@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2831;
+		nextID=2834;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=158;
+		nextID=178;
 	};
 	class Camera
 	{
-		pos[]={6151.8193,84.31604,11416.527};
-		dir[]={-0.72207719,-0.20741884,0.66003031};
-		up[]={-0.15310307,0.97825277,0.1399471};
-		aside[]={0.67470229,-7.9511665e-008,0.7381295};
+		pos[]={6043.8374,103.9541,11518.57};
+		dir[]={0.72767711,-0.59967452,-0.33332622};
+		up[]={0.54523265,0.80023068,-0.24975291};
+		aside[]={-0.41650197,6.7939982e-007,-0.9092595};
 	};
 };
 binarizationWanted=0;
@@ -574,6 +574,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -605,25 +624,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=1;
 				};
 			};
 		};
@@ -697,7 +697,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1101;
+		items=1103;
 		class Item0
 		{
 			dataType="Marker";
@@ -19069,7 +19069,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6073.1191,83.019554,11507.895};
-						angles[]={6.2799835,3.5076282,6.2816033};
+						angles[]={6.2799911,3.5076232,6.2815971};
 					};
 					side="West";
 					flags=6;
@@ -19078,7 +19078,7 @@ class Mission
 						rank="COLONEL";
 						init="call{(group this) setGroupId [""Zeus""]}";
 						name="z1";
-						description="(HQ) Master & Commander@Erebos - OPz";
+						description="(HQ) Master & Commander@Titan - OPz";
 						isPlayable=1;
 					};
 					id=1278;
@@ -19188,8 +19188,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6071.3926,83.028625,11509.866};
-						angles[]={6.2799835,3.9673698,6.2816033};
+						position[]={6071.3931,83.028625,11509.866};
+						angles[]={6.2799911,3.9673777,6.2815971};
 					};
 					side="West";
 					flags=4;
@@ -19198,7 +19198,7 @@ class Mission
 						rank="MAJOR";
 						init="call{(group this) setGroupId [""Zeus""]}";
 						name="z2";
-						description="Executive Officer [XO]@Erebos - OPz";
+						description="Executive Officer [XO]@Titan - OPz";
 						isPlayer=1;
 						isPlayable=1;
 					};
@@ -19372,7 +19372,7 @@ class Mission
 						rank="SERGEANT";
 						init="call{this setGroupid [""Hades""];}";
 						name="s8";
-						description="Teamleader@Hades";
+						description="Teamleader@Blade";
 						isPlayable=1;
 					};
 					id=1285;
@@ -19502,7 +19502,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6071.2881,82.931976,11493.707};
-						angles[]={6.2687874,0.6852591,6.2799835};
+						angles[]={6.268786,0.68525118,6.2799911};
 					};
 					side="West";
 					flags=4;
@@ -19510,7 +19510,7 @@ class Mission
 					{
 						skill=0.40000001;
 						name="s10";
-						description="Rifleman@Hades";
+						description="Rifleman@Blade";
 						isPlayable=1;
 					};
 					id=1289;
@@ -19649,7 +19649,7 @@ class Mission
 						skill=0.40000001;
 						rank="CORPORAL";
 						name="s11";
-						description="Corpsman@Hades";
+						description="Corpsman@Blade";
 						isPlayable=1;
 					};
 					id=2653;
@@ -19779,7 +19779,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6068.3809,82.965492,11496.732};
-						angles[]={6.2751918,0.6852591,6.2816033};
+						angles[]={6.2751913,0.68525118,6.2815971};
 					};
 					side="West";
 					flags=4;
@@ -19787,7 +19787,7 @@ class Mission
 					{
 						skill=0.40000001;
 						name="s13";
-						description="AT@Hades";
+						description="AT@Blade";
 						isPlayable=1;
 					};
 					id=2654;
@@ -19925,7 +19925,7 @@ class Mission
 					{
 						skill=0.44999999;
 						name="s9";
-						description="MG@Hades";
+						description="MG@Blade";
 						isPlayable=1;
 					};
 					id=2655;
@@ -20055,7 +20055,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={6069.667,82.975586,11498.436};
-						angles[]={6.2751918,0.6852591,6.2799835};
+						angles[]={6.2751913,0.68525118,6.2799911};
 					};
 					side="West";
 					flags=4;
@@ -20063,7 +20063,7 @@ class Mission
 					{
 						skill=0.44999999;
 						name="s14";
-						description="Grenadier@Hades";
+						description="Grenadier@Blade";
 						isPlayable=1;
 					};
 					id=2656;
@@ -25787,9 +25787,9 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this setGroupid [""Cerbarus""];}";
+						init="call{this setGroupid [""Auris""];}";
 						name="s16";
-						description="Teamleader@Cerbarus";
+						description="Teamleader@Auris";
 						isPlayable=1;
 					};
 					id=2665;
@@ -25927,7 +25927,7 @@ class Mission
 					{
 						skill=0.40000001;
 						name="s23";
-						description="Rifleman / AT@Cerbarus";
+						description="Rifleman / AT@Auris";
 						isPlayable=1;
 					};
 					id=2666;
@@ -26065,7 +26065,7 @@ class Mission
 					{
 						skill=0.44999999;
 						name="s17";
-						description="Marksman@Cerbarus";
+						description="Marksman@Auris";
 						isPlayable=1;
 					};
 					id=2663;
@@ -26203,7 +26203,7 @@ class Mission
 					{
 						skill=0.40000001;
 						name="s18";
-						description="MG@Cerbarus";
+						description="MG@Auris";
 						isPlayable=1;
 					};
 					id=2661;
@@ -26341,7 +26341,7 @@ class Mission
 					{
 						skill=0.44999999;
 						name="s22";
-						description="JTAG@Cerbarus";
+						description="JTAG@Auris";
 						isPlayable=1;
 					};
 					id=2662;
@@ -26480,7 +26480,7 @@ class Mission
 						skill=0.40000001;
 						rank="CORPORAL";
 						name="s19";
-						description="Corpsman@Cerbarus";
+						description="Corpsman@Auris";
 						isPlayable=1;
 					};
 					id=2829;
@@ -27835,7 +27835,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6088.3584,82.86097,11490.364};
+						position[]={6088.3579,82.860977,11490.364};
 						angles[]={6.2655926,5.5446315,0};
 					};
 					side="West";
@@ -27844,14 +27844,13 @@ class Mission
 					{
 						skill=0.40000001;
 						rank="SERGEANT";
-						init="this setGroupid [""Eagle1""];";
+						init="call{this setGroupid [""Spartan""];}";
 						name="s28_1";
-						description="Jet Pilot #1@Eagle 5-2 (Air Support)";
+						description="Jet Pilot #1@Spartan (Air Support)";
 						isPlayable=1;
 					};
 					id=2712;
 					type="rhsusf_airforce_jetpilot";
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27976,7 +27975,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6089.5996,82.879959,11491.443};
+						position[]={6089.6001,82.879959,11491.443};
 						angles[]={6.2655926,5.5446315,0};
 					};
 					side="West";
@@ -27985,9 +27984,9 @@ class Mission
 					{
 						skill=0.40000001;
 						rank="SERGEANT";
-						init="this setGroupid [""Eagle1""];";
+						init="call{this setGroupid [""Spartan""];}";
 						name="s29_1";
-						description="Jet Pilot #2@Eagle 5-2 (Air Support)";
+						description="Jet Pilot #2@Spartan (Air Support)";
 						isPlayable=1;
 					};
 					id=2713;
@@ -28117,7 +28116,6 @@ class Mission
 				formation="LINE";
 			};
 			id=2711;
-			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -31544,6 +31542,42 @@ class Mission
 			id=2830;
 			type="Land_Loudspeakers_F";
 			atlOffset=-3.8146973e-006;
+		};
+		class Item1101
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6085.9912,84.410103,11505.239};
+				angles[]={0,0.91484261,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=1;
+				init="call{this setobjecttexture [0,""pics\radio.jpg""]; }";
+			};
+			id=2831;
+			type="UserTexture1m_F";
+			atlOffset=1.3989868;
+		};
+		class Item1102
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6086.02,83.71772,11505.285};
+				angles[]={6.2767911,0.9133389,0.0015822123};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="this setObjectTexture [0, ""pics\lmcartel.jpg""]";
+			};
+			id=2832;
+			type="Sign_F";
 		};
 	};
 	class Connections

@@ -37,54 +37,41 @@ player createDiaryRecord [
 	]
 ];
 
-// player createDiaryRecord [
-	// "Diary", 
-	// [
-		// "OPERATIONS", 
-		// "You can select the Random Task from <marker name='command'>here</marker> and <marker name='command_1'>here</marker>
-		// <br/><br/>***AIR OPERATIONS***
-		// <br/>DESTROY MOBILE ARTILLERY - eliminate two enemy MAT pieces.
-		// <br/>DESTROY WAREHOUSE - bomb CSAT supply depot.
-		// <br/>CONVOY ATTACK - eliminate a supply convoy.
-		// <br/>CAS - destroy CSAT armored platoon.
-		// <br/><br/>***SUPPORT OPERATIONS***
-		// <br/>IED CLEAR - must neutralize an IED, only specialists can disable explosives.
-		// <br/>ROAD REPAIR - must use the CRV and bring to the area to repair the road.
-		// <br/>DEPLOY HQ - carry and escort a supply truck to the area to deploy the HQ.
-		// <br/>DELIVER SUPPLIES - must escort a supply truck and take it to the ally C.O.P.
-		// <br/>VEHICLE REPAIR - must carry the CRV and tow the damaged vehicle to Repair service in Loy Manara Air Base.
-		// <br/>MEDEVAC - must evacuate the wounded in the AO to MASH in Rasman AB.
-		// <br/>RECOVER UAV - find the drone and retrieve intel.
-		// <br/>CSAR - Find the Pilot and evacuate to MASH in Rasman AB. 
-		// <br/><br/>***CLEAR AND COMBAT OPS***
-		// <br/>TAKE CONTROL - take control of the town and eliminate or drive out Terrorist forces.
-		// <br/>KILL OFFICER - must eliminate the insurgent officer.
-		// <br/>FIND EVIDENCES - search for intel in the area and arrest civilian colaborator.
-		// <br/>DESTROY AMMO STASH - search the area and destroy the caches.
-		// <br/>DESTROY COMMS - must destroy a mobile communications module.
-		// <br/>TAKE CONTROL - take control of the town and eliminate or drive out Insurgent forces.
-		// <br/>DESTROY SPAA - Find and destroy enemy SPAA Placement.
-		// <br/>CAPTURE WARLORD - Find the insurgent Leader and bring it to Rasman AB."
-	// ]
-// ];
-
 player createDiaryRecord [
 	"Diary", 
 	[
-		"RADIO SETTINGS",
-		"-- Radio frequencies (short range) --
-		<br/>Channel 1: 41
-		<br/>Channel 2: 42
-		<br/>Channel 3: 43
-		<br/>Channel 4: 44
-		<br/><br/>
-		-- Radio frequencies (long range) --
-		<br/>Channel 1: 51
-		<br/>Channel 2: 52
-		<br/>Channel 3: 53
-		<br/>Channel 4: 54		
-		"
+			"RADIO SETTINGS",
+			"-- Radio frequencies (short range) --
+			<br/>
+			<br/>OPZ 
+			<br/>Titan: SW CH1	41 MHz		
+			<br/>
+			<br/>Squad
+			<br/>Blade: SW CH2	42 MHz 		
+			<br/>Auris: SW CH3	43 MHz
+			<br/>
+			<br/>Special Units
+			<br/>Badger: SW CH3	43 MHz
+			<br/><br/>
+			-- Radio frequencies (long range) --
+			<br/>
+			<br/>CAS/Helicopter
+			<br/>Gambit:  LR	CH7	57 MHz
+			<br/>
+			<br/>CAS/Jet
+			<br/>Spartan: LR	CH7 57 MHz
+			<br/>
+			<br/>Logistic:
+			<br/>Brutus: LR	CH4	54 MHz
+			<br/><br/>
+			<br/>Kampfkreis: LR CH2 52 MHz
+			<br/>Convoyfunk: LR CH1 51 MHz
+			"
 	]
+	
+	
+	
+	
 ];
 
 player createDiaryRecord [
