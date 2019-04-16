@@ -7,7 +7,7 @@ Author = "Neodym ||HEC||";
 onLoadName = "NFOR North by ||HEC|| - Zeus -  ";
 onLoadMission = "Terrorist forces try to gain control of Takistan and enter the fight to drive out Task Force TRIUMPH";
 loadScreen = "pics\loadscreen.paa";
-briefingName = "=[NORTH TAKISTAN - NFOR]= ACE3 v10.5 - Zeus -";
+briefingName = "=[NORTH TAKISTAN - NFOR]= ACE3 v10.6 - Zeus -";
 
 /* ================================================ GAME TYPE ============================================================== */
 class Header
