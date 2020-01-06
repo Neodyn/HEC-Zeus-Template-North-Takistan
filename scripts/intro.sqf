@@ -2,7 +2,6 @@ if(isDedicated) exitWith{};
 
 if (hasInterface) then {
 
-    ["Insurgency | ALiVE - Running Client Intro..."] call ALiVE_fnc_Dump;
 
     //Intro
     [] spawn {

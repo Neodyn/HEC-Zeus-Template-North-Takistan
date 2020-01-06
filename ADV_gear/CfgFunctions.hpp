@@ -15,7 +15,7 @@ class ADV
 		class nil {};
 		class playerUnit {};
 	};
-	class loadouts_bwtrop //BW Mod 3-Fleck Loadout
+/* 	class loadouts_bwtrop //BW Mod 3-Fleck Loadout
 	{
 		file = "ADV_gear\loadouts\bwtrop";
 		class bwtrop_base {};
@@ -54,7 +54,7 @@ class ADV
 		class bwfleck_off {};
 		class bwfleck_pio {};
 		class bwfleck_zgfhr {};
-	};
+	}; */
 	class loadouts_ussf //US Special Forces
 	{
 		file = "ADV_gear\loadouts\ussf";

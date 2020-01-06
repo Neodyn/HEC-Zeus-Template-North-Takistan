@@ -4,7 +4,7 @@
 
 /* ================================================ MISSION INFO ============================================================ */
 Author = "Neodym ||HEC||";
-onLoadName = "NFOR North by ||HEC|| - Zeus -  ";
+onLoadName = "NFOR North Takistan by ||HEC|| - Zeus -  ";
 onLoadMission = "Terrorist forces try to gain control of Takistan and enter the fight to drive out Task Force TRIUMPH";
 loadScreen = "pics\loadscreen.paa";
 briefingName = "=[NORTH TAKISTAN - NFOR]= ACE3 v10.6 - Zeus -";
@@ -68,8 +68,8 @@ class cfgRemoteExec
 
 
 /* ================================================ INTERFACES FÜR LOADOUTS ================================================ */
-#include "ADV_gear\gui\bwtrop\bwtropLoadoutDialog.hpp"
-#include "ADV_gear\gui\bwfleck\bwfleckLoadoutDialog.hpp"
+/*#include "ADV_gear\gui\bwtrop\bwtropLoadoutDialog.hpp"*/
+/*#include "ADV_gear\gui\bwfleck\bwfleckLoadoutDialog.hpp"*/
 #include "ADV_gear\gui\uk\ukLoadoutDialog.hpp"
 #include "ADV_gear\gui\usocp\usocpLoadoutDialog.hpp"
 #include "ADV_gear\gui\usmarines\usmarinesLoadoutDialog.hpp"
